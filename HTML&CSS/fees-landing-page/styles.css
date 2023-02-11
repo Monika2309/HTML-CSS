@@ -1,0 +1,193 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+header>img{
+    width: 150px;
+}
+header{
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 100px 0px 100px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: #54546D;
+    font-weight: 600;
+}
+.gray_section{
+    background-color: #54546D;
+    height: 350px;
+    width: 100vw;
+}
+.gray_section img{
+    position: relative;
+    left: -70px;
+    top: -8px;
+}
+.gray_section h1{
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+}
+.fees{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: -200px;
+}
+.fees>div{
+    background-color: white;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.fees button{
+    background-color: #9A5DC6;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    top: 40px;
+}
+.section__div__text{
+    height: 60%;
+    padding-top: 10px;
+    padding: 10px 25px 0px 25px;
+}
+.section__div__text p{
+    letter-spacing: 0.5px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.green{
+    color: white;
+    background: rgb(4,156,62);
+    background: linear-gradient(90deg, rgba(4,156,62,1) 0%, rgba(115,199,106,1) 100%);
+}
+.blue{
+    background: rgb(77,109,138);
+    background: linear-gradient(90deg, rgba(77,109,138,1) 0%, rgba(96,152,203,1) 100%);
+}
+.purple{
+    background: rgb(77,58,168);
+    background: linear-gradient(90deg, rgba(77,58,168,1) 0%, rgba(137,122,222,1) 100%);
+}
+.divider{
+    border-left: 1px solid white;
+    height: 80px;
+}
+.green h2, .blue h2, .purple h2{
+    font-weight: 400;
+}
+.online{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    top: -100px;
+}
+.online section h2{
+    font-weight: 500;
+}
+.table{
+    width: 1100px;
+    height: 340px;
+    border-radius: 15px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+.table p:nth-child(odd){
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 15px;
+
+}
+.table p:nth-child(even){
+    background-color: #F8F8F8;
+    margin: 0;
+    padding: 15px;
+}
+.icons{
+    width: 100px;
+    height: 340px;
+    display: flex;
+    position: relative;
+    top: -300px;
+    left: 800px;
+    gap: 150px;
+}
+.icons i{
+    padding: 16px;
+    color: green;
+    font-size: 18px;
+}
+.second__colom i:nth-child(1),
+.second__colom i:nth-child(2){
+    color: red;
+}
+.bank{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fibank__text{
+    width: 70%;
+}
+.fibank__img{
+    position: relative;
+    top: 30px;
+}
+footer{
+    margin-top: 100px;
+    background-color: #54546D;
+    color: lightgray;
+    height: 80px;
+    text-align: center;
+}
+footer p{
+    position: relative;
+    top: 30px;
+}
